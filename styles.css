@@ -1,0 +1,116 @@
+.yuri {
+  color: red;
+}
+.success {
+  color: olivedrab;
+}
+#yaoi {
+  color: magenta;
+}
+.orange {
+  background-color: #aaffbb;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+}
+.blue {
+  background-color: rgba(69, 45, 23, 0.69);
+}
+.font-styles {
+  font-family: Verdana;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: medium;
+}
+.er {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+.box-model {
+  border: 1px solid red;
+  height: 255px;
+  width: 230px;
+  margin: 20px;
+  padding: 120px; /*padding add space between content and box*/
+}
+h2 {
+  color: blueviolet;
+}
+h2 {
+  color: aqua;
+}
+h3 {
+  color: orchid;
+}
+.io {
+  color: blueviolet !important;
+}
+#rim {
+  color: #aaffbb;
+}
+.inheritance {
+  color: orange;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+th,
+td {
+  border-bottom: 1 px solid #000000;
+  border: 1px solid #000000;
+  padding: 15px;
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+  height: 50%;
+}
+.content-1 {
+  border: 1px solid red;
+  display: inline;
+}
+.content-2 {
+  border: 1px solid blue;
+  display: block;
+}
+.Position-1 {
+  border: 1px solid red;
+  position: relative;
+  top: 50px;
+  left: 30px;
+  right: 20px;
+  bottom: 10px;
+}
+.Position-2 {
+  border: 1px solid blue;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.Position-3 {
+  border: 1px solid magenta;
+  position: static;
+}
+.Position-4 {
+  border: 1px solid palegreen;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.Position-5{
+    position: sticky;
+}
+.relative-unit{
+    font-size: 20px;
+
+}
+.em{
+    width: 2em;
+}
